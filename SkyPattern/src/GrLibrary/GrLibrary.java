@@ -64,7 +64,7 @@ public class GrLibrary extends Frame implements WindowListener {
 
             x1=rnd(minX+20,maxX-120);
             y1=rnd(minY+50,maxY-150);
-            d=rnd(15,60);
+            d=rnd(1,10);
 
             g.fillOval(x1,y1,d,d);
             try
